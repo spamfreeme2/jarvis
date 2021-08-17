@@ -1,0 +1,40 @@
+   <!-- Jumbotron-->
+      <div class="jumbotron bg-transparent jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">About Us!</h1>
+          <p class="lead">
+            We are a group of students who have set towards getting pets adopted so that they get you get a wonderful pet and they get a good home
+          </p>
+        </div>
+      </div>
+  
+      <!-- Jumbotron with cards for counter -->
+      <div class="jumbotron bg-transparent jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Our Mission!</h1>
+          <!-- Counter cards-->
+          <div class="card-group">
+            <div class="card bg-transparent m-1">
+              <div class="card-body">
+                <h5 class="card-title">Aim!</h5>
+                <hr class="bg-white" />
+                <h1 class="card-text text-white" id="counter1"></h1>
+              </div>
+            </div>
+            <div class="card bg-transparent m-1">
+              <div class="card-body">
+                <h5 class="card-title">Partners!</h5>
+                <hr class="bg-white" />
+                <h1 class="card-text text-white" id="counter2"></h1>
+              </div>
+            </div>
+            <div class="card bg-transparent m-1">
+              <div class="card-body">
+                <h5 class="card-title">Type of pets!</h5>
+                <hr class="bg-white" />
+                <h1 class="card-text text-white" id="counter3"></h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>

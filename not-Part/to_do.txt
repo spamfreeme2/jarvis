@@ -1,7 +1,10 @@
+STARTER THEME: dark
+MODE FOR CHANGE: LIGHT
+
 -> Index:
-    1. add menu
-    2. heading
-    2. add counter 
+    | add menu
+    | heading
+    | add counter 
 
 
 
@@ -11,8 +14,8 @@
 
 
 -> About:
-    1. add menu
-    2. 
+    | add menu
+    | 
 
 
 
@@ -23,5 +26,10 @@
 
 
 -> Shop:
-    1. add menu
-    2. 
+    | add menu
+    | 
+
+
+ 
+-> Asset Websites Used:
+    | 
