@@ -1,0 +1,27 @@
+-> Index:
+    1. add menu
+    2. heading
+    2. add counter 
+
+
+
+
+
+
+
+
+-> About:
+    1. add menu
+    2. 
+
+
+
+
+
+
+
+
+
+-> Shop:
+    1. add menu
+    2. 
