@@ -22,3 +22,8 @@ background-size: cover;
     font-size: 2rem; 
     color: white;
 }
+
+.bg-glass{
+    /* glass effect */
+    backdrop-filter: blur(2px);
+}
