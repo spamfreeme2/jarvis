@@ -1,40 +1,17 @@
-   <!-- Jumbotron-->
-      <div class="jumbotron bg-transparent jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">About Us!</h1>
-          <p class="lead">
-            We are a group of students who have set towards getting pets adopted so that they get you get a wonderful pet and they get a good home
-          </p>
-        </div>
-      </div>
-  
-      <!-- Jumbotron with cards for counter -->
-      <div class="jumbotron bg-transparent jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Our Mission!</h1>
-          <!-- Counter cards-->
-          <div class="card-group">
-            <div class="card bg-transparent m-1">
-              <div class="card-body">
-                <h5 class="card-title">Aim!</h5>
-                <hr class="bg-white" />
-                <h1 class="card-text text-white" id="counter1"></h1>
-              </div>
+     <!-- Navigation Bar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">J.A.R.V.I.S</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="/index.html"><i class="bi bi-house-fill" id="feature-svg"></i></a>
+                <a class="nav-link" href="/pages/about.html"><i class="bi bi-info-circle-fill"id="feature-svg-inactive"></i></a>
+                <a class="nav-link" href="/pages/shop.html"><i class="bi bi-bag-fill" id="feature-svg-inactive"></i></a>
+                </div>
             </div>
-            <div class="card bg-transparent m-1">
-              <div class="card-body">
-                <h5 class="card-title">Partners!</h5>
-                <hr class="bg-white" />
-                <h1 class="card-text text-white" id="counter2"></h1>
-              </div>
             </div>
-            <div class="card bg-transparent m-1">
-              <div class="card-body">
-                <h5 class="card-title">Type of pets!</h5>
-                <hr class="bg-white" />
-                <h1 class="card-text text-white" id="counter3"></h1>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        </nav>
+        <hr class="text-white">

@@ -3,6 +3,7 @@ MODE FOR CHANGE: LIGHT
 
 -> Index:
     | add menu
+    | Try putting trailer gif as background (IMP)
     | heading
     | add counter 
 

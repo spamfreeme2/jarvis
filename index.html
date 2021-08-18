@@ -10,177 +10,111 @@
     <!-- Additinal Css-->
     <link href="/utility/main.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/utility/cover.css">
     <title>JARVIS</title>
-
   </head>
+  <body class="text-white bg-transparent" id="wallpaper">
+       <!-- Navigation Bar-->
+      <div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+          <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">J.A.R.V.I.S</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="/index.html"><i class="bi bi-house-fill" id="feature-svg"></i></a>
+              <a class="nav-link" href="/pages/about.html"><i class="bi bi-info-circle-fill"id="feature-svg-inactive"></i></a>
+              <a class="nav-link" href="/pages/shop.html"><i class="bi bi-bag-fill" id="feature-svg-inactive"></i></a>
+              </div>
+          </div>
+          </div>
+      </nav>
+      <hr class="text-white">
+      </div>
 
+      <!-- Heading -->
+      <div class="text-center">
+        <h1>J.A.R.V.I.S</h1>
+        <p class="text-muted">Just a rather very intelligent system</p>
+      </div>
 
-  <body class="text-white" id="wallpaper">
-    
-    <!-- Navigation Bar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-            <div class="container-fluid">
-            <a class="navbar-brand" href="/index.html">J.A.R.V.I.S</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-                <a class="nav-link" href="/pages/about.html">About</a>
-                <a class="nav-link" href="/pages/shop.html">Shop</a>
-                </div>
-            </div>
-            </div>
-        </nav>
-        <hr class="text-white">
-
-
-
-    <!-- Head-->
-    <div>
-        <h1 class="text-center">JARVIS</h1>
-        <p class="text-muted text-center"> ~full form here</p>
-    </div>
-
-    <!-- Trailer-->
-    
-
-
-
-    <div id="map">
-    <!-- Jumbotron with cards for counter -->
-    <div class="jumbotron bg-transparent jumbotron-fluid">
-        <div class="container">
-        <h1 class="display-4">CURRENT OPERATIONS</h1>
-        <!-- Cards -->
-        <div class="card-group">
-            <div class="card bg-transparent m-1">
+      <!-- card -->
+      <div class="p-1 bg-glass">
+      <div class="row row-cols-1 row-cols-md-2 g-4 bg-tran">
+        <div class="col">
+          <div class="card bg-transparent">
+            <img src="/utility/img/bootstrap-themes.png" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Total Users</h5>
-                <hr class="bg-white" />
-                <h1 class="card-text text-white" id="counter1"></h1>
+              <h5 class="card-title">Personal Assistant!</h5>
+              <p class="card-text">JARVIS is an A.I that will function as your personal assistant guiding you to excellence!</p>
             </div>
-            </div>
-            <div class="card bg-transparent m-1">
-            <div class="card-body">
-                <h5 class="card-title">Active Users</h5>
-                <hr class="bg-white" />
-                <h1 class="card-text text-white" id="counter2"></h1>
-            </div>
-            </div>
-            <div class="card bg-transparent m-1">
-            <div class="card-body">
-                <h5 class="card-title">Serving Since</h5>
-                <hr class="bg-white" />
-                <h1 class="card-text text-white" id="counter3">1</h1> <h1>Years</h1>
-            </div>
-            </div>
+          </div>
         </div>
+        <div class="col">
+          <div class="card bg-transparent">
+            <img src="/utility/img/bootstrap-themes.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Multi-functional!</h5>
+              <p class="card-text">It can take of care all your internal systems of your household like managing your cars, home appliances, electronics and even the drapes</p>
+            </div>
+          </div>
         </div>
-    </div>
-    </div>
+        <div class="col">
+          <div class="card bg-transparent">
+            <img src="/utility/img/bootstrap-themes.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Remote Operation!</h5>
+              <p class="card-text">JARVIS can be installed on all all your devices like phones,smart watches and even your cars </p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col">
+          <div class="card bg-transparent">
+            <img src="/utility/img/bootstrap-themes.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Reliable!</h5>
+              <p class="card-text">It will keep your house secure and inform you whenever there is a breach to make sure your house is secured like a fortress</p>
+            </div>
+          </div> 
+        </div>
+      </div>
+        <!-- Learn more button-->
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <a href="/pages/about.html" class="btn btn-outline-danger" type="button">Learn More</a>
+        </div>
 
-    <!-- About JARVIS 1-->
-    <h1 class="text-center">About JARVIS 1</h1>
-    <div class="shadow p-3 bg-glass mb-5 rounded">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-          <img src="/utility/img/bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <br>
+      <h1 class="text-center"> Why J.A.R.V.I.S?</h1>
+      <!-- pros and cons -->
+      <div class="row m-2 m-sm-2">
+        <div class="col-sm-6">
+          <div class="card bg-transparent">
+            <div class="card-body">
+              <h2 class=" text-center card-title">Pros <i class="bi bi-check-lg text-success"></i></h2>
+                <hr>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-6">
-          <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-          <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+        <div class="col-sm-6">
+          <div class="card bg-transparent">
+            <div class="card-body">
+              <h2 class=" text-center card-title">Cons <i class="bi bi-x-lg text-danger"></i></h2>
+                <hr>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <hr>
-    <div class="shadow p-3 bg-glass mb-5 rounded">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-          <img src="/utility/img/bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-        </div>
-        <div class="col-lg-6">
-          <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-          <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <hr>
-    <div class="shadow p-3 bg-glass mb-5 rounded">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-          <img src="/utility/img/bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-        </div>
-        <div class="col-lg-6">
-          <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-          <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <hr>    
 
-    <!-- About Jarvis 2-->
-    <div class="shadow p-3 bg-glass mb-5 rounded">
 
-        <div class="container px-4 py-5" id="hanging-icons">
-            <h2 class="pb-2 border-bottom">Hanging icons</h2>
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-            <div class="col d-flex align-items-start">
-                <div class="icon-square bg-transparent text-dark flex-shrink-0 me-3">
-                    <i class="bi-alarm" id="feature-svg"></i>
-                </div>
-                <div>
-                <h2>Featured title</h2>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                <a href="#" class="btn btn-primary">
-                    Primary button
-                </a>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <div class="icon-square bg-transparent text-dark flex-shrink-0 me-3">
-                    <i class="bi bi-cpu" id="feature-svg"></i>
-                </div>
-                <div>
-                <h2>Featured title</h2>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                <a href="#" class="btn btn-primary">
-                    Primary button
-                </a>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <div class="icon-square bg-transparent text-dark flex-shrink-0 me-3">
-                    <i class="bi bi-cpu" id="feature-svg"></i>
-                </div>
-                <div>
-                <h2>Featured title</h2>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                <a href="#" class="btn btn-primary">
-                    Primary button
-                </a>
-                </div>
-            </div>
-            </div>
-        </div>
-      </div>
-
-      <!-- PROS AND CONS-->
-      <h1 class="text-center">PROS AND CONS LIST</h1>
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS and google ajax -->
     <script src="/utility/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
