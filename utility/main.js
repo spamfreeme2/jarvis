@@ -17,5 +17,5 @@ function animateValue(id, start, end, duration) {
   
   // goal counter call functions
   animateValue("counter1", 1, 1000,-1000);
-  animateValue("counter2", 1, 50,3000);
-  animateValue("counter3", 1, 10,3000);
+  animateValue("counter2", 1, 500,-500);
+  animateValue("counter3", 1, 5,2000);
