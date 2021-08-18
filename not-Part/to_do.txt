@@ -20,12 +20,6 @@ MODE FOR CHANGE: LIGHT
 
 
 
-
-
-
-
-
-
 -> Shop:
     | add menu
     | 

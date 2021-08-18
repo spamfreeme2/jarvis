@@ -15,3 +15,44 @@
             </div>
         </nav>
         <hr class="text-white">
+
+
+  <!-- pros and cons -->
+      <div class="row m-2 m-sm-2">
+        <div class="col-sm-6">
+          <div class="card bg-transparent">
+            <div class="card-body">
+              <h2 class=" text-center card-title">Pros <i class="bi bi-check-lg text-success"></i></h2>
+                <hr>
+                <ul>
+                  <i class="bi bi-check-lg text-success">   Voice Activation Enabled</i>
+                  <br>
+                  <i class="bi bi-check-lg text-success">   Acts like a personal buttler</i>
+                  <br>
+                  <i class="bi bi-check-lg text-success">   Easy Installation</i>
+                  <br>
+                  <i class="bi bi-check-lg text-success">   Multiple Languages</i>
+                  <br>
+                  <i class="bi bi-check-lg text-success">   Self Upgrading</i>
+                  <br>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card bg-transparent">
+            <div class="card-body">
+              <h2 class=" text-center card-title">Cons <i class="bi bi-x-lg text-danger"></i></h2>
+                <hr>
+                <ul>
+                  <i class="bi bi-x-lg text-danger">   Only works online</i>
+                  <br>
+                  <i class="bi bi-x-lg text-danger">   Limited availiblilty</i>
+                  <br>
+                  <i class="bi bi-x-lg text-danger">   Not easily affordable</i>
+                  <br>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
