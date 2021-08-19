@@ -1,223 +1,434 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-   <!-- Additinal Css-->
-   <link href="/utility/main.css" rel="stylesheet">
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-   <link rel="stylesheet" href="/utility/cover.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <!-- Additinal Css-->
+    <link href="/utility/main.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="/utility/cover.css" />
     <title>JARVIS - Shop</title>
   </head>
   <body class="text-white" id="wallpaper">
-   <!-- Navigation Bar-->
-   <div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+    <!-- Navigation Bar-->
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
         <div class="container-fluid">
-        <a class="navbar-brand display-4' "  href="/index.html">J.A.R.V.I.S</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand display-4'" href="/index.html">J.A.R.V.I.S</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-            <a class="nav-link " aria-current="page" href="/index.html"><i class="bi bi-house-fill" id="feature-svg-inactive"></i></a>
-            <a class="nav-link " href="/pages/about.html"><i class="bi bi-info-circle-fill"id="feature-svg-inactive"></i></a>
-            <a class="nav-link active" href="/pages/shop.html"><i class="bi bi-bag-fill" id="feature-svg"></i></a>
+              <a class="nav-link" aria-current="page" href="/index.html"
+                ><i class="bi bi-house-fill" id="feature-svg-inactive"></i
+              ></a>
+              <a class="nav-link" href="/pages/about.html"
+                ><i class="bi bi-info-circle-fill" id="feature-svg-inactive"></i
+              ></a>
+              <a class="nav-link active" href="/pages/shop.html"
+                ><i class="bi bi-bag-fill" id="feature-svg"></i
+              ></a>
             </div>
+          </div>
         </div>
-        </div>
-    </nav>
-    <hr class="text-white">
+      </nav>
+      <hr class="text-white" />
     </div>
     <!-- Shop cards -->
     <div class="p-2">
-    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-      <div class="col">
-        <div class="card bg-transparent mb-4 rounded-3 shadow-sm">
-          <div class="card-header bg-dark py-3">
-            <h4 class="my-0 fw-normal">Basic</h4>
-          </div>
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title">$99<small class="text-muted fw-light">/yr</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>5 users included</li>
-              <li>Free Installation</li>
-              <li>Free Updates</li>
-              <li>24hr Tech support</li>
-            </ul>
-            <!-- Sign Up page-->
-            <!-- Button trigger modal -->
-            <button type="button" class="btn w-100 btn-lg btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              Get Started!
-            </button>
-            <!-- Modal -->
-            <div class="modal fade bg-glass" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content bg-dark">
-                  <div class="modal-header">
-                    <h1 class="modal-title text-center" id="exampleModalLabel">Purchase</h1>
-                    <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <form class="row g-3">
-                      <div class="col-md-6">
-                        <label for="inputEmail4" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="email@email.com">
-                      </div>
-                      <div class="col-md-6">
-                        <label for="inputPassword4" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="password">
-                      </div>
-                      <div class="col-12">
-                        <label for="inputAddress" class="form-label">Address</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                      </div>
-                      <div class="col-12">
-                        <label for="inputAddress2" class="form-label">Address 2</label>
-                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                      </div>
-                      <div class="col-md-6">
-                        <label for="inputCity" class="form-label">City</label>
-                        <input type="text" class="form-control" id="inputCity" placeholder="City">
-                      </div>
-                      <div class="col-md-6">
-                        <label for="inputZip" class="form-label">Zip</label>
-                        <input type="text" class="form-control" id="inputZip" placeholder="Zipcode">
-                      </div>
-                      <div class="col-12">
-                        <button type="submit" class="btn btn-outline-primary">Sign Up</button>
-                      </div>
-                    </form>
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card bg-transparent mb-4 rounded-3 shadow-sm">
+            <div class="card-header bg-dark py-3">
+              <h4 class="my-0 fw-normal">Basic</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $99<small class="text-muted fw-light">/yr</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>5 users included</li>
+                <li>Free Installation</li>
+                <li>Free Updates</li>
+                <li>24hr Tech support</li>
+              </ul>
+              <!-- Sign Up page-->
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn w-100 btn-lg btn-outline-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Get Started!
+              </button>
+              <!-- Modal -->
+              <div
+                class="modal fade bg-glass"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content bg-dark">
+                    <div class="modal-header">
+                      <h1
+                        class="modal-title text-center"
+                        id="exampleModalLabel"
+                      >
+                        Purchase
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close bg-white"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <form class="row g-3">
+                        <div class="col-md-6">
+                          <label for="inputEmail4" class="form-label"
+                            >Email</label
+                          >
+                          <input
+                            type="email"
+                            class="form-control"
+                            id="inputEmail4"
+                            placeholder="email@email.com"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputPassword4" class="form-label"
+                            >Password</label
+                          >
+                          <input
+                            type="password"
+                            class="form-control"
+                            id="inputPassword4"
+                            placeholder="password"
+                          />
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress" class="form-label"
+                            >Address</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="inputAddress"
+                            placeholder="1234 Main St"
+                          />
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress2" class="form-label"
+                            >Address 2</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="inputAddress2"
+                            placeholder="Apartment, studio, or floor"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputCity" class="form-label">City</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="inputCity"
+                            placeholder="City"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputZip" class="form-label">Zip</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="inputZip"
+                            placeholder="Zipcode"
+                          />
+                        </div>
+                        <div class="col-12">
+                          <button type="submit" class="btn btn-outline-primary">
+                            Sign Up
+                          </button>
+                        </div>
+                      </form>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card bg-transparent mb-4 rounded-3 shadow-sm">
-          <div class="card-header bg-secondary py-3">
-            <h4 class="my-0 fw-normal">Pro</h4>
-          </div>
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title">$499<small class="text-muted fw-light">/yr</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>20 users included</li>
-              <li>Free Insrallation</li>
-              <li>Local Storage</li>
-              <li>24hr Tech support</li>
-            </ul>
-            <!-- Sign Up page-->
-            <!-- Button trigger modal -->
-            <button type="button" class="btn w-100 btn-lg btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              Get Started!
-            </button>
-            <!-- Modal -->
-            <div class="modal fade bg-glass" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content bg-dark">
-                  <div class="modal-header">
-                    <h1 class="modal-title text-center" id="exampleModalLabel">Purchase</h1>
-                    <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-
-                    <form class="row g-3">
-                      <div class="col-md-6">
-                        <label for="inputEmail4" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="email@email.com">
-                      </div>
-                      <div class="col-md-6">
-                        <label for="inputPassword4" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="password">
-                      </div>
-                      <div class="col-12">
-                        <label for="inputAddress" class="form-label">Address</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                      </div>
-                      <div class="col-12">
-                        <label for="inputAddress2" class="form-label">Address 2</label>
-                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                      </div>
-                      <div class="col-md-6">
-                        <label for="inputCity" class="form-label">City</label>
-                        <input type="text" class="form-control" id="inputCity" placeholder="City">
-                      </div>
-                      <div class="col-md-6">
-                        <label for="inputZip" class="form-label">Zip</label>
-                        <input type="text" class="form-control" id="inputZip" placeholder="Zipcode">
-                      </div>
-                      <div class="col-12">
-                        <button type="submit" class="btn btn-outline-primary">Sign Up</button>
-                      </div>
-                    </form>
+        <div class="col">
+          <div class="card bg-transparent mb-4 rounded-3 shadow-sm">
+            <div class="card-header bg-secondary py-3">
+              <h4 class="my-0 fw-normal">Pro</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $499<small class="text-muted fw-light">/yr</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>20 users included</li>
+                <li>Free Insrallation</li>
+                <li>Local Storage</li>
+                <li>24hr Tech support</li>
+              </ul>
+              <!-- Sign Up page-->
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn w-100 btn-lg btn-outline-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Get Started!
+              </button>
+              <!-- Modal -->
+              <div
+                class="modal fade bg-glass"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content bg-dark">
+                    <div class="modal-header">
+                      <h1
+                        class="modal-title text-center"
+                        id="exampleModalLabel"
+                      >
+                        Purchase
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close bg-white"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <form class="row g-3">
+                        <div class="col-md-6">
+                          <label for="inputEmail4" class="form-label"
+                            >Email</label
+                          >
+                          <input
+                            type="email"
+                            class="form-control"
+                            id="inputEmail4"
+                            placeholder="email@email.com"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputPassword4" class="form-label"
+                            >Password</label
+                          >
+                          <input
+                            type="password"
+                            class="form-control"
+                            id="inputPassword4"
+                            placeholder="password"
+                          />
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress" class="form-label"
+                            >Address</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="inputAddress"
+                            placeholder="1234 Main St"
+                          />
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress2" class="form-label"
+                            >Address 2</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="inputAddress2"
+                            placeholder="Apartment, studio, or floor"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputCity" class="form-label">City</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="inputCity"
+                            placeholder="City"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputZip" class="form-label">Zip</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="inputZip"
+                            placeholder="Zipcode"
+                          />
+                        </div>
+                        <div class="col-12">
+                          <button type="submit" class="btn btn-outline-primary">
+                            Sign Up
+                          </button>
+                        </div>
+                      </form>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card bg-transparent mb-4 rounded-3 shadow-sm">
-          <div class="card-header py-3 text-white bg-danger">
-            <h4 class="my-0 fw-normal">Defence</h4>
-          </div>
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title">$999<small class="text-muted fw-light">/yr</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>30 users included</li>
-              <li>Free Installation</li>
-              <li>Premium Defence Package</li>
-              <li>Master control </li>
-            </ul>
-            <!-- Sign Up page-->
-            <!-- Button trigger modal -->
-            <button type="button" class="btn w-100 btn-lg btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              Get Started!
-            </button>
-            <!-- Modal -->
-            <div class="modal fade bg-glass" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content bg-dark">
-                  <div class="modal-header">
-                    <h1 class="modal-title text-center" id="exampleModalLabel">Purchase</h1>
-                    <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <form class="row g-3">
-                      <div class="col-md-6">
-                        <label for="inputEmail4" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="email@email.com">
-                      </div>
-                      <div class="col-md-6">
-                        <label for="inputPassword4" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="password">
-                      </div>
-                      <div class="col-12">
-                        <label for="inputAddress" class="form-label">Address</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                      </div>
-                      <div class="col-12">
-                        <label for="inputAddress2" class="form-label">Address 2</label>
-                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                      </div>
-                      <div class="col-md-6">
-                        <label for="inputCity" class="form-label">City</label>
-                        <input type="text" class="form-control" id="inputCity" placeholder="City">
-                      </div>
-                      <div class="col-md-6">
-                        <label for="inputZip" class="form-label">Zip</label>
-                        <input type="text" class="form-control" id="inputZip" placeholder="Zipcode">
-                      </div>
-                      <div class="col-12">
-                        <button type="submit" class="btn btn-outline-primary">Sign Up</button>
-                      </div>
-                    </form>
+        <div class="col">
+          <div class="card bg-transparent mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3 text-white bg-danger">
+              <h4 class="my-0 fw-normal">Defence</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $999<small class="text-muted fw-light">/yr</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>30 users included</li>
+                <li>Free Installation</li>
+                <li>Premium Defence Package</li>
+                <li>Master control</li>
+              </ul>
+              <!-- Sign Up page-->
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn w-100 btn-lg btn-outline-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Get Started!
+              </button>
+              <!-- Modal -->
+              <div
+                class="modal fade bg-glass"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content bg-dark">
+                    <div class="modal-header">
+                      <h1
+                        class="modal-title text-center"
+                        id="exampleModalLabel"
+                      >
+                        Purchase
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close bg-white"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <form class="row g-3">
+                        <div class="col-md-6">
+                          <label for="inputEmail4" class="form-label"
+                            >Email</label
+                          >
+                          <input
+                            type="email"
+                            class="form-control"
+                            id="inputEmail4"
+                            placeholder="email@email.com"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputPassword4" class="form-label"
+                            >Password</label
+                          >
+                          <input
+                            type="password"
+                            class="form-control"
+                            id="inputPassword4"
+                            placeholder="password"
+                          />
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress" class="form-label"
+                            >Address</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="inputAddress"
+                            placeholder="1234 Main St"
+                          />
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress2" class="form-label"
+                            >Address 2</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="inputAddress2"
+                            placeholder="Apartment, studio, or floor"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputCity" class="form-label">City</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="inputCity"
+                            placeholder="City"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputZip" class="form-label">Zip</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="inputZip"
+                            placeholder="Zipcode"
+                          />
+                        </div>
+                        <div class="col-12">
+                          <button type="submit" class="btn btn-outline-primary">
+                            Sign Up
+                          </button>
+                        </div>
+                      </form>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -226,118 +437,165 @@
         </div>
       </div>
     </div>
-    </div> 
     <h1 class="text-center display-4">COMPARE PLANS</h1>
     <!-- Compare Chart-->
     <div class="p-4">
-    <div class="table-responsive">
-      <table class="table text-center text-white">
-        <thead>
-          <tr>
-            <th style="width: 34%;"></th>
-            <th style="width: 22%;">Basic</th>
-            <th style="width: 22%;">Pro</th>
-            <th style="width: 22%;">Defence</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row" class="text-start">Warranty</th>
-            <td><i class="bi bi-check2"></i></td>
-            <td><i class="bi bi-check2"></i></td>
-            <td><i class="bi bi-check2"></i></td>
-          </tr>
-          <tr>
-            <th scope="row" class="text-start">Free Installation</th>
-            <td><i class="bi bi-check2"></i></td>
-            <td><i class="bi bi-check2"></i></td>
-            <td><i class="bi bi-check2"></i></td>
-          </tr>
-        </tbody>
+      <div class="table-responsive">
+        <table class="table text-center text-white">
+          <thead>
+            <tr>
+              <th style="width: 34%"></th>
+              <th style="width: 22%">Basic</th>
+              <th style="width: 22%">Pro</th>
+              <th style="width: 22%">Defence</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" class="text-start">Warranty</th>
+              <td><i class="bi bi-check2"></i></td>
+              <td><i class="bi bi-check2"></i></td>
+              <td><i class="bi bi-check2"></i></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Free Installation</th>
+              <td><i class="bi bi-check2"></i></td>
+              <td><i class="bi bi-check2"></i></td>
+              <td><i class="bi bi-check2"></i></td>
+            </tr>
+          </tbody>
 
-        <tbody>
-          <tr>
-            <th scope="row" class="text-start">Car Package</th>
-            <td></td>
-            <td><i class="bi bi-check2"></i></td>
-            <td><i class="bi bi-check2"></i></td>
-          </tr>
-          <tr>
-            <th scope="row" class="text-start">Home Security Package</th>
-            <td></td>
-            <td><i class="bi bi-check2"></i></td>
-            <td><i class="bi bi-check2"></i></td>
-          </tr>
-          <tr>
-            <th scope="row" class="text-start">Defence Package</th>
-            <td></td>
-            <td></td>
-            <td><i class="bi bi-check2"></i></td>
-          </tr>
-          <tr>
-            <th scope="row" class="text-start">Master Control</th>
-            <td></td>
-            <td></td>
-            <td><i class="bi bi-check2"></i></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+          <tbody>
+            <tr>
+              <th scope="row" class="text-start">Car Package</th>
+              <td></td>
+              <td><i class="bi bi-check2"></i></td>
+              <td><i class="bi bi-check2"></i></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Home Security Package</th>
+              <td></td>
+              <td><i class="bi bi-check2"></i></td>
+              <td><i class="bi bi-check2"></i></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Defence Package</th>
+              <td></td>
+              <td></td>
+              <td><i class="bi bi-check2"></i></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Master Control</th>
+              <td></td>
+              <td></td>
+              <td><i class="bi bi-check2"></i></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
     <!-- Gallery View -->
-    <hr>
+    <hr />
     <h1 class="display-4 text-center">GALLERY</h1>
     <!-- Gallery (Try Card Style)-->
-    <div class="p-2 ">
+    <div class="p-2">
       <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
           <div class="card rounded-4 bg-transparent">
-            <iframe max-width="500px" height="340px" src="https://www.youtube.com/embed/Wx7RCJvoCMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe
+              max-width="500px"
+              height="340px"
+              src="https://www.youtube.com/embed/Wx7RCJvoCMc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
 
             <div class="card-body">
               <h5 class="card-title">J.A.R.V.I.S Interface Displayed</h5>
-              <p class="card-text">Let JARVIS greet you to give you an experience of the greatest A.I ever developed and take a look at its facinating Interface</p>
+              <p class="card-text">
+                Let JARVIS greet you to give you an experience of the greatest
+                A.I ever developed and take a look at its facinating Interface
+              </p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card rounded-4 bg-transparent">
-            <iframe max-width="500px" height="340px" src="https://www.youtube.com/embed/v0t8Nr-yk48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe
+              max-width="500px"
+              height="340px"
+              src="https://www.youtube.com/embed/v0t8Nr-yk48"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
             <div class="card-body">
               <h5 class="card-title">J.A.R.V.I.S Iconic Moments</h5>
-              <p class="card-text">A display of JARVIS in action with the defence package</p>
+              <p class="card-text">
+                A display of JARVIS in action with the defence package
+              </p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card rounded-4 bg-transparent">
-            <iframe max-width="500px" height="340px" src="https://www.youtube.com/embed/DZaAFADoF1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe
+              max-width="500px"
+              height="340px"
+              src="https://www.youtube.com/embed/DZaAFADoF1M"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
             <div class="card-body">
-              <h5 class="card-title">Designinng Using J.A.R.V.I.S</h5>
-              <p class="card-text">Learn how to use the abilities of JARVIS to aid you in your work and see the power of JARVIS unleash before your eyes</p>
+              <h5 class="card-title">Designing Using J.A.R.V.I.S</h5>
+              <p class="card-text">
+                Learn how to use the abilities of JARVIS to aid you in your work
+                and see the power of JARVIS unleash before your eyes
+              </p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card rounded-4 bg-transparent">
-            <iframe max-width="500px" height="340px" src="https://www.youtube.com/embed/ZwOxM0-byvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe
+              max-width="500px"
+              height="340px"
+              src="https://www.youtube.com/embed/ZwOxM0-byvc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
             <div class="card-body">
               <h5 class="card-title">J.A.R.V.I.S Integration</h5>
-              <p class="card-text">Shows that JARVIS is so powerful that it can even be implemented to operate Iron Mans suit and control all its functionality like a boss.</p>
+              <p class="card-text">
+                Shows that JARVIS is so powerful that it can even be implemented
+                to operate Iron Mans suit and control all its functionality like
+                a boss.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- Customer Reviews -->
-    <hr>
+    <hr />
     <h1 class="text-center display-4">CUSTOMER REVIEWS</h1>
     <div class="p-3">
       <div class="card-group">
         <div class="card bg-transparent">
           <div class="card-body">
             <blockquote class="blockquote mb-0">
-              <p>Extremely good and reliable product, very glad i purchased the pro package, voice command mode is extremely well programmed, great product.</p>
+              <p>
+                Extremely good and reliable product, very glad i purchased the
+                pro package, voice command mode is extremely well programmed,
+                great product.
+              </p>
               <footer class="blockquote-footer">Scarlett Johansson</footer>
             </blockquote>
           </div>
@@ -345,7 +603,11 @@
         <div class="card bg-transparent">
           <div class="card-body">
             <blockquote class="blockquote mb-0">
-              <p>Home security package is a extremely well programmed function. Helped me a lot in cases of emergencies. Makes me tension free whenever I go on vacation.</p>
+              <p>
+                Home security package is a extremely well programmed function.
+                Helped me a lot in cases of emergencies. Makes me tension free
+                whenever I go on vacation.
+              </p>
               <footer class="blockquote-footer">Apurv Khanna</footer>
             </blockquote>
           </div>
@@ -353,14 +615,22 @@
         <div class="card bg-transparent">
           <div class="card-body">
             <blockquote class="blockquote mb-0">
-              <p>Bought the defence plan to advance my security system of the Stark Tower, helped me against my enemy Loki. Best part is, it brings my suit whenever i need it.</p>
+              <p>
+                Bought the defence plan to advance my security system of the
+                Stark Tower, helped me against my enemy Loki. Best part is, it
+                brings my suit whenever i need it.
+              </p>
               <footer class="blockquote-footer">Tony Stark</footer>
             </blockquote>
           </div>
         </div>
       </div>
     </div>
-<!-- Option 2: jQuery, Popper.js, and Bootstrap JS and google ajax -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS and google ajax -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

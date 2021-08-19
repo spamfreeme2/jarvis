@@ -1,216 +1,351 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-      <!-- Additinal Css-->
-      <link href="/utility/main.css" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <!-- Additinal Css-->
+    <link href="/utility/main.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
     <title>JARVIS - About</title>
   </head>
   <body class="text-white" id="wallpaper">
-   <!-- Navigation Bar-->
-   <div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-        <div class="container-fluid">
-        <a class="navbar-brand display-4' "  href="/index.html">J.A.R.V.I.S</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-            <a class="nav-link " aria-current="page" href="/index.html"><i class="bi bi-house-fill" id="feature-svg-inactive"></i></a>
-            <a class="nav-link active" href="/pages/about.html"><i class="bi bi-info-circle-fill"id="feature-svg"></i></a>
-            <a class="nav-link" href="/pages/shop.html"><i class="bi bi-bag-fill" id="feature-svg-inactive"></i></a>
-            </div>
-        </div>
-        </div>
-    </nav>
-    <hr class="text-white">
-    </div>
-    <hr class="text-white">
+    <!-- Navigation Bar-->
     <div>
-    <!-- Jumbotron with cards for counter -->
-    <div class="jumbotron bg-transparent jumbotron-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container-fluid">
+          <a class="navbar-brand display-4'" href="/index.html">J.A.R.V.I.S</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="/index.html"
+                ><i class="bi bi-house-fill" id="feature-svg-inactive"></i
+              ></a>
+              <a class="nav-link active" href="/pages/about.html"
+                ><i class="bi bi-info-circle-fill" id="feature-svg"></i
+              ></a>
+              <a class="nav-link" href="/pages/shop.html"
+                ><i class="bi bi-bag-fill" id="feature-svg-inactive"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <hr class="text-white" />
+    </div>
+    <hr class="text-white" />
+    <div>
+      <!-- Jumbotron with cards for counter -->
+      <div class="jumbotron bg-transparent jumbotron-fluid">
         <div class="container">
-        <h1 class="display-4">CURRENT PROGESS</h1>
-        <!-- Cards -->
-        <div class="card-group">
+          <h1 class="display-4">CURRENT PROGESS</h1>
+          <!-- Cards -->
+          <div class="card-group">
             <div class="card bg-transparent m-1">
-            <div class="card-body">
+              <div class="card-body">
                 <h5 class="card-title">Total Users</h5>
                 <hr class="bg-white" />
                 <h1 class="card-text text-white" id="counter1"></h1>
-            </div>
+              </div>
             </div>
             <div class="card bg-transparent m-1">
-            <div class="card-body">
+              <div class="card-body">
                 <h5 class="card-title">Active Users</h5>
                 <hr class="bg-white" />
                 <h1 class="card-text text-white" id="counter2"></h1>
-            </div>
+              </div>
             </div>
             <div class="card bg-transparent m-1">
-            <div class="card-body">
+              <div class="card-body">
                 <h5 class="card-title">Serving Since</h5>
                 <hr class="bg-white" />
-                <h1 class="card-text text-white" id="counter3">1</h1> <h1>Years</h1>
-            </div>
-            </div>
-        </div>
-        </div>
-    </div>
-    </div>
-      <!-- pros and cons -->
-      <div class="row m-2 m-sm-2">
-        <div class="col-sm-6">
-          <div class="card bg-transparent">
-            <div class="card-body">
-              <h2 class=" text-center card-title">Pros <i class="bi bi-check-lg text-success"></i></h2>
-                <hr>
-                <ul>
-                  <h4 class="bi bi-check-lg text-success">   Voice Activation Enabled</h4>
-                  <h4  class="bi bi-check-lg text-success">   Acts like a personal buttler</h4>
-                  <h4  class="bi bi-check-lg text-success">   Easy Installation</h4>
-                  <h4  class="bi bi-check-lg text-success">   Multiple Languages</h4>
-                  <h4 class="bi bi-check-lg text-success">   Self Upgrading</h4>
-                </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="card bg-transparent">
-            <div class="card-body">
-              <h2 class=" text-center card-title">Cons <i class="bi bi-x-lg text-danger"></i></h2>
-                <hr>
-                <ul>
-                  <h4 class="bi bi-x-lg text-danger">   Only works online</h4>
-                  <h4 class="bi bi-x-lg text-danger">   Limited availiblilty</h4>
-                  <h4 class="bi bi-x-lg text-danger">   Not easily affordable</h4>
-                </ul>
+                <h1 class="card-text text-white" id="counter3">1</h1>
+                <h1>Years</h1>
+              </div>
             </div>
           </div>
         </div>
       </div>
-  <!-- About Jarvis 2-->
-  <div class="shadow p-3 bg-glass mb-5 rounded">
-    <div class="container px-4 py-5" id="hanging-icons">
+    </div>
+    <!-- pros and cons -->
+    <div class="row m-2 m-sm-2">
+      <div class="col-sm-6">
+        <div class="card bg-transparent">
+          <div class="card-body">
+            <h2 class="text-center card-title">
+              Pros <i class="bi bi-check-lg text-success"></i>
+            </h2>
+            <hr />
+            <ul>
+              <h4 class="bi bi-check-lg text-success">
+                Voice Activation Enabled
+              </h4>
+              <h4 class="bi bi-check-lg text-success">
+                Acts like a personal buttler
+              </h4>
+              <h4 class="bi bi-check-lg text-success">Easy Installation</h4>
+              <h4 class="bi bi-check-lg text-success">Multiple Languages</h4>
+              <h4 class="bi bi-check-lg text-success">Self Upgrading</h4>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card bg-transparent">
+          <div class="card-body">
+            <h2 class="text-center card-title">
+              Cons <i class="bi bi-x-lg text-danger"></i>
+            </h2>
+            <hr />
+            <ul>
+              <h4 class="bi bi-x-lg text-danger">Only works online</h4>
+              <h4 class="bi bi-x-lg text-danger">Limited availiblilty</h4>
+              <h4 class="bi bi-x-lg text-danger">Not easily affordable</h4>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Jarvis 2-->
+    <div class="shadow p-3 bg-glass mb-5 rounded">
+      <div class="container px-4 py-5" id="hanging-icons">
         <h2 class="pb-2 border-bottom display-4">ADDITIONAL INFO</h2>
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-        <div class="col d-flex align-items-start">
-            <div class="icon-square bg-transparent text-dark flex-shrink-0 me-3">
-                <img src="/utility/img/jarvis-logo.png" style="max-width: 4rem;">
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square bg-transparent text-dark flex-shrink-0 me-3"
+            >
+              <img src="/utility/img/jarvis-logo.png" style="max-width: 4rem" />
             </div>
             <div>
-            <h2>CAPABILITIES</h2>
-            <p>Multi-functional software program capable of managing the local enviroment of any household.</p>
-            <p>
-            <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-                Learn More!
-              </button>
-            </p>
-            <div style="min-height: 120px;">
-              <div class="collapse collapse-horizontal" id="collapseWidthExample">
-                <div class="card card-body bg-transparent" style="width: 300px;">
-                  It employs a highly advanced user interface with holographic peripherals and voice input, and communicates data back to its user via speech audio, holographic displays and conventional LCD monitors
-                </div>
-              </div>
-            </div>        
-            </div>
-        </div>
-        <div class="col d-flex align-items-start">
-            <div class="icon-square bg-transparent text-dark flex-shrink-0 me-3">
-                <img src="/utility/img/jarvis-logo.png" style="max-width: 4rem;">
-            </div>
-            <div>
-            <h2>TRAITS</h2>
-            <p></p>J.A.R.V.I.S. is quite a sophisticated AI, able to interact with human beings just as a living person. It possesses very deep scientific knowledge and is able to aid you in your research.
-            <p>
-              <br>
-              <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-                Learn More!
-              </button>
-            </p>
-            <div style="min-height: 120px;">
-              <div class="collapse collapse-horizontal" id="collapseWidthExample">
-                <div class="card card-body bg-transparent" style="width: 300px;">
-                  It's system is so powerful that is able to adapt to your requirement and alter itself to suit you. It can analyse your pattern of life to provide the best experience. It is a truly remarkable ally.
-                </div>
-              </div>
-            </div>
-            </div>
-        </div>
-        <div class="col d-flex align-items-start">
-            <div class="icon-square bg-transparent text-dark flex-shrink-0 me-3">
-                <img src="/utility/img/jarvis-logo.png" style="max-width: 4rem;">
-            </div>
-            <div>
-            <h2>PRIVACY</h2>
-            <p>JARVIS maintains the highest level of security to ensure that your data is in your hands.</p>
-            <p>
-              <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-                Learn More!
-              </button>
-            </p>
-            <div style="min-height: 120px;">
-              <div class="collapse collapse-horizontal" id="collapseWidthExample">
-                <div class="card card-body bg-transparent" style="width: 300px;">
-                  We maintain high level of encryption along with local storage of data to make JARVIS safe from vulnerability 
+              <h2>CAPABILITIES</h2>
+              <p>
+                Multi-functional software program capable of managing the local
+                enviroment of any household.
+              </p>
+              <p>
+                <button
+                  class="btn btn-outline-primary"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseWidthExample"
+                  aria-expanded="false"
+                  aria-controls="collapseWidthExample"
+                >
+                  Learn More!
+                </button>
+              </p>
+              <div style="min-height: 120px">
+                <div
+                  class="collapse collapse-horizontal"
+                  id="collapseWidthExample"
+                >
+                  <div
+                    class="card card-body bg-transparent"
+                    style="width: 300px"
+                  >
+                    It employs a highly advanced user interface with holographic
+                    peripherals and voice input, and communicates data back to
+                    its user via speech audio, holographic displays and
+                    conventional LCD monitors
+                  </div>
                 </div>
               </div>
             </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square bg-transparent text-dark flex-shrink-0 me-3"
+            >
+              <img src="/utility/img/jarvis-logo.png" style="max-width: 4rem" />
             </div>
+            <div>
+              <h2>TRAITS</h2>
+              <p></p>
+              J.A.R.V.I.S. is quite a sophisticated AI, able to interact with
+              human beings just as a living person. It possesses very deep
+              scientific knowledge and is able to aid you in your research.
+              <p>
+                <br />
+                <button
+                  class="btn btn-outline-primary"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseWidthExample"
+                  aria-expanded="false"
+                  aria-controls="collapseWidthExample"
+                >
+                  Learn More!
+                </button>
+              </p>
+              <div style="min-height: 120px">
+                <div
+                  class="collapse collapse-horizontal"
+                  id="collapseWidthExample"
+                >
+                  <div
+                    class="card card-body bg-transparent"
+                    style="width: 300px"
+                  >
+                    It's system is so powerful that is able to adapt to your
+                    requirement and alter itself to suit you. It can analyse
+                    your pattern of life to provide the best experience. It is a
+                    truly remarkable ally.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square bg-transparent text-dark flex-shrink-0 me-3"
+            >
+              <img src="/utility/img/jarvis-logo.png" style="max-width: 4rem" />
+            </div>
+            <div>
+              <h2>PRIVACY</h2>
+              <p>
+                JARVIS maintains the highest level of security to ensure that
+                your data is in your hands.
+              </p>
+              <p>
+                <button
+                  class="btn btn-outline-primary"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseWidthExample"
+                  aria-expanded="false"
+                  aria-controls="collapseWidthExample"
+                >
+                  Learn More!
+                </button>
+              </p>
+              <div style="min-height: 120px">
+                <div
+                  class="collapse collapse-horizontal"
+                  id="collapseWidthExample"
+                >
+                  <div
+                    class="card card-body bg-transparent"
+                    style="width: 300px"
+                  >
+                    We maintain high level of encryption along with local
+                    storage of data to make JARVIS safe from vulnerability
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        </div>
+      </div>
     </div>
-  </div>
-    <h1 class="text-center display-4">About JARVIS? </h1>
-    <hr>
+    <h1 class="text-center display-4">About JARVIS?</h1>
+    <hr />
     <!-- About JARVIS -->
     <div class="shadow p-3 bg-glass mb-5 rounded">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
-          <img src="/utility/img/creation.gif" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          <img
+            src="/utility/img/creation.gif"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Bootstrap Themes"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
         </div>
         <div class="col-lg-6">
           <h1 class="display-5 fw-bold lh-1 mb-3">Creation</h1>
-          <p class="lead">JARVIS was originally Tony Stark's natural-language user interface computer system, named after Edwin Jarvis, in honor of the butler who worked for Howard Stark and the Stark household.
-            Over time, he was upgraded into an artificially intelligent system, tasked with running business for Stark Industries as well as security for Tony Stark's Mansion and Stark Tower. </p>
+          <p class="lead">
+            JARVIS was originally Tony Stark's natural-language user interface
+            computer system, named after Edwin Jarvis, in honor of the butler
+            who worked for Howard Stark and the Stark household. Over time, he
+            was upgraded into an artificially intelligent system, tasked with
+            running business for Stark Industries as well as security for Tony
+            Stark's Mansion and Stark Tower.
+          </p>
         </div>
       </div>
     </div>
-    <hr>
+    <hr />
     <div class="shadow p-3 bg-glass mb-5 rounded">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
-          <img src="/utility/img/back-2.gif" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          <img
+            src="/utility/img/back-2.gif"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Bootstrap Themes"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
         </div>
         <div class="col-lg-6">
           <h1 class="display-5 fw-bold lh-1 mb-3">Backstory</h1>
-          <p class="lead">Over the years, Stark improved and perfected the system, adding security protocols and eventually upgrading the U.I. into an A.I. system. Now artificially intelligent and programmed to aid Stark. J.A.R.V.I.S was tasked with operating Stark's mansion as well as handling business for Stark Industries.</p>
+          <p class="lead">
+            Over the years, Stark improved and perfected the system, adding
+            security protocols and eventually upgrading the U.I. into an A.I.
+            system. Now artificially intelligent and programmed to aid Stark.
+            J.A.R.V.I.S was tasked with operating Stark's mansion as well as
+            handling business for Stark Industries.
+          </p>
         </div>
       </div>
     </div>
-    <hr>
+    <hr />
     <div class="shadow p-3 bg-glass mb-5 rounded">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
-          <img src="/utility/img/def-hollow.gif" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          <img
+            src="/utility/img/def-hollow.gif"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Bootstrap Themes"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
         </div>
         <div class="col-lg-6">
           <h1 class="display-5 fw-bold lh-1 mb-3">JARVIS In Defense</h1>
-          <p class="lead">In Iron Man 2, J.A.R.V.I.S. has access to security-related devices, such as a passcode to prevent intruders from entering the basement, shown when James Rhodes is attempting to access his Hall of Armors and don the Mark II to stop Tony Stark. In Iron Man 3, and we can say that he destroys all of the armors, by the order of the "Clean Slate Protocol", resulting in fireworks, as a sign of devotion by Tony to Pepper Potts.</p>
+          <p class="lead">
+            In Iron Man 2, J.A.R.V.I.S. has access to security-related devices,
+            such as a passcode to prevent intruders from entering the basement,
+            shown when James Rhodes is attempting to access his Hall of Armors
+            and don the Mark II to stop Tony Stark. In Iron Man 3, and we can
+            say that he destroys all of the armors, by the order of the "Clean
+            Slate Protocol", resulting in fireworks, as a sign of devotion by
+            Tony to Pepper Potts.
+          </p>
         </div>
       </div>
     </div>
-    <hr>      
+    <hr />
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS and google ajax -->
     <script src="/utility/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
   </body>
-
 </html>
