@@ -1,0 +1,11 @@
+Website Link : https://tender-swanson-7306f4.netlify.app/pages/about.html
+Link Made on netlify
+
+School : Modern School Vasant Vihar
+
+Team Members:
+    1. Shivohum Loyalka
+    2. Jiansh Aggarwal
+
+Topic: Jarvis Bot 
+Competition : Hypertext{x} 2021 
