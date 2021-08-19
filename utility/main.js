@@ -14,7 +14,6 @@ function animateValue(id, start, end, duration) {
         }
     }, stepTime);
   }
-  
   // goal counter call functions
   animateValue("counter1", 1, 1000,-1000);
   animateValue("counter2", 1, 500,-500);
